@@ -1,8 +1,8 @@
-export const ColoredMessage = (props) => {
+export const ColoredMessage = ({color,children}) => {
 
-	const {color,children} = props;
+	// const {color,children} = props;
 	const contentStyle = {
-		color: color,
+		color,
 		fontSize: "20px"
 	}
 	
